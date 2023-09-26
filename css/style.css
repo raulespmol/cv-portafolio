@@ -17,14 +17,28 @@ h1, h2, h3, h4, h5, h6, .logo {
   
 /* Hero */
 
+.hero {
+    background-image: url('../assets/img/bg-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #747576;
+}
+
 .pfp {
     background-image: url(../assets/img/pfp.jpg);
     background-position: center;
     background-size: contain;
-    background-color: #00ccff;
+    background-color: #17191a;
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3)
+}
+
+.hero p {
+    margin-bottom: 0.7rem;
+    line-height: 1.5rem;
 }
 
 /* Navbar */
