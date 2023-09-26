@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Ubuntu:wght@400;700&display=swap');
 
+.scroll {height: 300vh;} /* Clase temporal, eliminar mas tarde */
+
 * {
     box-sizing: border-box;
 }
@@ -7,13 +9,24 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #ddd;
-    padding-top: 70px;
 }
   
 h1, h2, h3, h4, h5, h6, .logo {
     font-family: 'Ubuntu', sans-serif;
 }
   
+/* Hero */
+
+.pfp {
+    background-image: url(../assets/img/pfp.jpg);
+    background-position: center;
+    background-size: contain;
+    background-color: #00ccff;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
 /* Navbar */
 
 .logo {

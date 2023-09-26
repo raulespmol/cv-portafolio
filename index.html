@@ -7,53 +7,73 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Raúl Espinoza Molina</title>
 </head>
-<body>
-    <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand logo" href="#">[.remo]</a>
-          <button
-            class="navbar-toggler link-light"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end "
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header bg-dark text-light">
-              <h5 class="offcanvas-title fw-2" id="offcanvasNavbarLabel">[.remo]</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
+<body class="pt-5 p-lg-0">
+    <div class="container-fluid bg-light py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-12 col-sm-4 d-flex align-items-center">
+                    <figure class="pfp"></figure>
+                </div>
+                <div class="col-12 col-sm-8 d-flex flex-column justify-content-center">
+                    <p class="fs-4 m-0">Hola! Soy</p>
+                    <h2 class="fs-1 fw-bold my-0">Raúl Espinoza Molina</h2>
+                    <h3 class="fs-4">Desarrollador Fullstack en formación</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima suscipit aut sapiente minus pariatur. Excepturi quasi, rem ducimus qui necessitatibus, quod amet quo, consequuntur temporibus maxime distinctio sunt nemo sapiente.</p>
+                </div class="col-8">
             </div>
-            <div class="offcanvas-body bg-dark">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </nav>
+    </div>
 
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark sticky-lg-top fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">[.remo]</a>
+            <button
+                class="navbar-toggler link-light"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+                class="offcanvas offcanvas-end "
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+            >
+                <div class="offcanvas-header bg-dark text-light">
+                <h5 class="offcanvas-title fw-2" id="offcanvasNavbarLabel">[.remo]</h5>
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                ></button>
+                </div>
+                <div class="offcanvas-body bg-dark">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
+    <div class="scroll"></div> <!-- Es solo para hacer scroll mientras aun no hay suficiente contenido -->
+
+    
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
