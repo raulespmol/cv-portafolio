@@ -1,184 +1,235 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/custom.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>[.remo] Raúl Espinoza Molina</title>
-</head>
-<body class="pt-5 p-lg-0">
+  </head>
+  <body class="pt-5 p-lg-0">
     <div class="container-fluid hero py-5 text-white">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-12 col-lg-4 d-flex align-items-center">
-                    <figure class="pfp"></figure>
-                </div>
-                <div class="col-12 col-lg-8 d-flex flex-column justify-content-center">
-                    <p class="fs-4 m-0"><span class="text-info">Hola!</span> Soy</p>
-                    <h2 class="display-3 fw-bold my-0">Raúl Espinoza Molina</h2>
-                    <h3 class="fs-4">><span class="text-info">Desarrollador Fullstack</span> en formación</h3>
-                    <hr>
-                    <div class="fs-5 fw-light">
-                        <p>Tranquilo, metódico y siempre dispuesto a ayudar. </p>
-                        <p>Me considero de aprendizaje rápido y en constante búsqueda de cosas nuevas. </p>
-                        <p>Actualmente cursando el bootcamp de Desarrollo Fullstack JavaScript en la academia Desafío Latam.</p>
-                    </div>
-                </div class="col-8">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-12 col-lg-4 d-flex align-items-center">
+            <figure class="pfp"></figure>
+          </div>
+          <div
+            class="col-12 col-lg-8 d-flex flex-column justify-content-center"
+          >
+            <p class="fs-4 m-0"><span class="text-info">Hola!</span> Soy</p>
+            <h2 class="display-3 fw-bold my-0">Raúl Espinoza Molina</h2>
+            <h3 class="fs-4">
+              ><span class="text-info">Desarrollador Fullstack</span> en
+              formación
+            </h3>
+            <hr />
+            <div class="fs-5 fw-light">
+              <p>Tranquilo, metódico y siempre dispuesto a ayudar.</p>
+              <p>
+                Me considero de aprendizaje rápido y en constante búsqueda de
+                cosas nuevas.
+              </p>
+              <p>
+                Actualmente cursando el bootcamp de Desarrollo Fullstack
+                JavaScript en la academia Desafío Latam.
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-dark navbar-expand-lg bg-dark sticky-lg-top fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand logo" href="#">[.remo]</a>
+    <nav
+      class="navbar navbar-dark navbar-expand-lg bg-dark sticky-lg-top fixed-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">[.remo]</a>
+        <button
+          class="navbar-toggler link-light"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header bg-dark text-light">
+            <h5
+              class="offcanvas-title fw-bold text-white"
+              id="offcanvasNavbarLabel"
+            >
+              [.remo]
+            </h5>
             <button
-                class="navbar-toggler link-light"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-                class="offcanvas offcanvas-end "
-                tabindex="-1"
-                id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel"
-            >
-                <div class="offcanvas-header bg-dark text-light">
-                <h5 class="offcanvas-title fw-bold text-white" id="offcanvasNavbarLabel">[.remo]</h5>
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                ></button>
-                </div>
-                <div class="offcanvas-body bg-dark">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                </ul>
-                </div>
-            </div>
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body bg-dark">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </nav>
 
     <!-- Contenido -->
 
     <div class="container">
-        <div class="row">
-            <!-- Izquierda -->
-            <div class="col-lg-4 bg-primary text-white py-5">
-                <h3 class="fw-bold fs-2"><i class='bx bx-book-open'></i> Educación</h3>
-                <hr>
-                <ul class="mb-5">
-                    <li>
-                        <h4 class="m-2 ">Desarrollo Fullstack JavaScript</h4>
-                        <p class="m-0 text-light lh-1 fw-light">Desafío Latam</p>
-                        <p class="m-0 text-light lh-1 fw-light">ago. 2023 - actualidad</p>
-                    </li>
-                    <li>
-                        <h4 class="m-2">TNS Diseño Gráfico</h4>
-                        <p class="m-0 text-light lh-1 fw-light">Instituto Profesional Virginio Gómez</p>
-                        <p class="m-0 text-light lh-1 fw-light">mar. 2013 - dic. 2014</p>
-                    </li>
-                </ul>
-                
-                <h3 class="fw-bold fs-2"><i class='bx bx-world'></i> Idiomas</h3>
-                <hr>
-                <ul>
-                    <li>
-                        <h4 class="m-2 ">Español</h4>
-                        <p class="m-0 text-light lh-1 fw-light">Nativo</p>
-                    </li>
-                    <li>
-                        <h4 class="m-2">Inglés</h4>
-                        <p class="m-0 text-light lh-1 fw-light">C2 - EFSET</p>
-                    </li>
-                </ul>
-                
-                <h3 class="fw-bold fs-2"><i class='bx bx-camera'></i> Hobbies</h3>
-                <hr>
-                <ul>
-                    <li>
-                        <h4 class="m-2 ">Fotografía</h4>
-                        <p class="m-0 text-light lh-1 fw-light">Apasionado por la naturaleza, mi pasatiempo favorito es fotografiar aves.</p>
-                    </li>
-                    <li>
-                        <h4 class="m-2"></h4>
-                        <p class="m-0 text-light lh-1 fw-light">C2 - EFSET</p>
-                    </li>
-                </ul>
+      <div class="row">
+        <!-- Izquierda -->
+        <div class="col-lg-4 bg-primary text-white py-5">
+          <h3 class="fw-bold fs-2">
+            <i class="bx bx-book-open"></i> Educación
+          </h3>
+          <hr />
+          <ul class="mb-5">
+            <li>
+              <h4 class="m-2">Desarrollo Fullstack JavaScript</h4>
+              <p class="m-0 text-light lh-1 fw-light">Desafío Latam</p>
+              <p class="m-0 text-light lh-1 fw-light">ago. 2023 - actualidad</p>
+            </li>
+            <li>
+              <h4 class="m-2">TNS Diseño Gráfico</h4>
+              <p class="m-0 text-light lh-1 fw-light">
+                Instituto Profesional Virginio Gómez
+              </p>
+              <p class="m-0 text-light lh-1 fw-light">mar. 2013 - dic. 2014</p>
+            </li>
+          </ul>
 
+          <h3 class="fw-bold fs-2"><i class="bx bx-world"></i> Idiomas</h3>
+          <hr />
+          <ul>
+            <li>
+              <h4 class="m-2">Español</h4>
+              <p class="m-0 text-light lh-1 fw-light">Nativo</p>
+            </li>
+            <li>
+              <h4 class="m-2">Inglés</h4>
+              <p class="m-0 text-light lh-1 fw-light">C2 - EFSET</p>
+            </li>
+          </ul>
 
-            </div>
-
-            <!-- Derecha -->
-            <div class="col-lg-8 bg-white py-5">
-                <h3 class="fw-bold text-primary fs-2"><i class='bx bx-briefcase-alt-2'></i> Experiencia</h3>
-                <hr>
-                <ul>
-                    <li>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h4 class="mb-0 fw-bold text-dark">Productor Gráfico</h4>
-                            <p class="m-0 text-secondary">ago. 2023 - actualidad</p>
-                        </div>
-                        <p class="mb-3 text-body-secondary lh-1">Letreros Valdivia</p>
-                        <p class="mb-3 text-body-secondary lh-1">Diseño y confección de gráficas. Adhesivos, letreros, señaléticas, material publicitario.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h4 class="mb-0 fw-bold text-dark">Secretario Administrativo</h4>
-                            <p class="m-0 text-secondary">may. 2023 - actualidad</p>
-                        </div>
-                        <p class="mb-3 text-body-secondary lh-1">APR Duqueco</p>
-                        <p class="mb-1 text-body-secondary lh-1">Atención de público para recaudación de tarifas, reclamos y consultas.</p>
-                        <p class="mb-3 text-body-secondary lh-1">Revisión y registro de consumos. Registro y archivo de Ingresos y Egresos.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h4 class="mb-0 fw-bold text-dark">Técnico en Reparaciones</h4>
-                            <p class="m-0 text-secondary">jun. 2017 - mar. 2020</p>
-                        </div>
-                        <p class="mb-3 text-body-secondary lh-1">FIXTEL</p>
-                        <p class="mb-3 text-body-secondary lh-1">Reparaciones de hardware y software de equipos telefónicos y otros artículos electrónicos.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h4 class="mb-0 fw-bold text-dark">Diseñador Gráfico</h4>
-                            <p class="m-0 text-secondary">feb. 2015 - may. 2017</p>
-                        </div>
-                        <p class="mb-3 text-body-secondary lh-1">Graficarfull</p>
-                        <p class="mb-3 text-body-secondary lh-1">Diseño de Branding, identidad visual, papelería y material publicitario.</p>
-                        <hr>
-                    </li>
-                </ul>
-            </div>
+          <h3 class="fw-bold fs-2"><i class="bx bx-camera"></i> Hobbies</h3>
+          <hr />
+          <ul>
+            <li>
+              <h4 class="m-2">Fotografía</h4>
+              <p class="m-0 text-light lh-1 fw-light">
+                Apasionado por la naturaleza, mi pasatiempo favorito es
+                fotografiar aves.
+              </p>
+            </li>
+            <li>
+              <h4 class="m-2"></h4>
+              <p class="m-0 text-light lh-1 fw-light">C2 - EFSET</p>
+            </li>
+          </ul>
         </div>
+
+        <!-- Derecha -->
+        <div class="col-lg-8 bg-white py-5">
+          <h3 class="fw-bold text-primary fs-2">
+            <i class="bx bx-briefcase-alt-2"></i> Experiencia
+          </h3>
+          <hr />
+          <ul>
+            <li>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="mb-0 fw-bold text-dark">Productor Gráfico</h4>
+                <p class="m-0 text-secondary">ago. 2023 - actualidad</p>
+              </div>
+              <p class="mb-3 text-body-secondary lh-1">Letreros Valdivia</p>
+              <p class="mb-3 text-body-secondary lh-1">
+                Diseño y confección de gráficas. Adhesivos, letreros,
+                señaléticas, material publicitario.
+              </p>
+              <hr />
+            </li>
+            <li>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="mb-0 fw-bold text-dark">
+                  Secretario Administrativo
+                </h4>
+                <p class="m-0 text-secondary">may. 2023 - actualidad</p>
+              </div>
+              <p class="mb-3 text-body-secondary lh-1">APR Duqueco</p>
+              <p class="mb-1 text-body-secondary lh-1">
+                Atención de público para recaudación de tarifas, reclamos y
+                consultas.
+              </p>
+              <p class="mb-3 text-body-secondary lh-1">
+                Revisión y registro de consumos. Registro y archivo de Ingresos
+                y Egresos.
+              </p>
+              <hr />
+            </li>
+            <li>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="mb-0 fw-bold text-dark">Técnico en Reparaciones</h4>
+                <p class="m-0 text-secondary">jun. 2017 - mar. 2020</p>
+              </div>
+              <p class="mb-3 text-body-secondary lh-1">FIXTEL</p>
+              <p class="mb-3 text-body-secondary lh-1">
+                Reparaciones de hardware y software de equipos telefónicos y
+                otros artículos electrónicos.
+              </p>
+              <hr />
+            </li>
+            <li>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4 class="mb-0 fw-bold text-dark">Diseñador Gráfico</h4>
+                <p class="m-0 text-secondary">feb. 2015 - may. 2017</p>
+              </div>
+              <p class="mb-3 text-body-secondary lh-1">Graficarfull</p>
+              <p class="mb-3 text-body-secondary lh-1">
+                Diseño de Branding, identidad visual, papelería y material
+                publicitario.
+              </p>
+              <hr />
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <div class="scroll"></div> <!-- Es solo para hacer scroll mientras aun no hay suficiente contenido -->
+    <div class="scroll"></div>
+    <!-- Es solo para hacer scroll mientras aun no hay suficiente contenido -->
 
-    
-    <footer class="bg-dark text-center text-light p-4 d-flex flex-column align-items-center">
-        <p class="mb-0 text-primary">Soy un footer, gracias por hacer scroll hasta acá</p>
-        <!-- <div class="social d-flex gap-4 fs-4">
+    <footer
+      class="bg-dark text-center text-light p-4 d-flex flex-column align-items-center"
+    >
+      <p class="mb-0 text-primary">
+        Soy un footer, gracias por hacer scroll hasta acá
+      </p>
+      <!-- <div class="social d-flex gap-4 fs-4">
             <a href="https://github.com/raulespmol"><i class="bi bi-github"></i></a>
             <a href="https://www.linkedin.com/in/raul-espinoza-molina/"><i class="bi bi-linkedin"></i></a>
             <a href="https://www.instagram.com/raul.espmol/"><i class="bi bi-instagram"></i></a>
@@ -186,6 +237,10 @@
         <p class="mb-0 text-primary">Raúl Espinoza M © - 2023</p> -->
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
