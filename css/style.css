@@ -52,3 +52,13 @@ h1, h2, h3, h4, h5, h6, .logo {
 .logo:hover {
     color: #00ccff;
 }
+
+
+/* Portafolio */
+
+.image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
