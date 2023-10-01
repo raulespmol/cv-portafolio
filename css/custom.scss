@@ -7,4 +7,9 @@ $light: #fff4d1;
 // Ajustes
 $offcanvas-horizontal-width: 300px;
 
+$card-border-radius: none;
+$card-border-width: none;
+$card-bg: $dark;
+$card-color: white;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
