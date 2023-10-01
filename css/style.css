@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Ubuntu:wght@400;700&display=swap');
 
-.scroll {height: 300vh;} /* Clase temporal, eliminar mas tarde */
-
 * {
     box-sizing: border-box;
 }
